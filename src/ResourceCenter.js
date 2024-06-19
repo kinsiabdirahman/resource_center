@@ -4,6 +4,7 @@ import './ResourceCenter.css'; // Import the CSS file for Resource Center
 const flyers = [
 
   { name: 'Finance GPT', link: 'https://t.co/PCLCg72ZhP' },
+  { name: 'SHIFGPT', link: 'https://chatgpt.com/g/g-YJXdolT5t-shifgpt' },
   { name: 'USSD Code', link: 'tel:*665*971#' },
   { name: 'Protest Guide', link: 'https://www.instagram.com/p/C8UTIjriayQ/?igsh=MWhpMzR0NWhmeXR3Zw==' },
   { name: 'Code Of Conduct', link: 'https://www.instagram.com/p/C8VKSY-o07G/?igsh=MWx6YnAxNmtyYjMxdQ==' },
