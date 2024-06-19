@@ -5,6 +5,7 @@ const contacts = [
     { type: 'Organisation', name: 'Defenders Coalition', phone: '0716-200100' },
     { type: 'Organisation', name: 'IMLU Org', phone: '0800 721 401' },
     { type: 'Organisation', name: 'Law Society Of Kenya', phone: '0800 720 434' },
+    { type: 'Organisation', name: 'Medics For Kenya', phone: '0708311740 , 0739567843' },
 ];
 
 const EmergencyContacts = () => {
