@@ -21,7 +21,7 @@ const App = () => {
                     </ul>
                 </nav>
                 <Routes>
-                    <Route path="/" element={<div><h1>Welcome to the Protest Resource Center</h1></div>} />
+                    <Route path="/" element={<div><h1>Welcome to the Protest Resource Centemnmr</h1></div>} />
                     <Route path="/resource-center" element={<ResourceCenter />} />
                     <Route path="/emergency-contacts" element={<EmergencyContacts />} />
                     <Route path="/legal-rights" element={<LegalRights />} />
