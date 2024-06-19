@@ -5,8 +5,8 @@ import EmergencyContacts from './EmergencyContacts';
 import LegalRights from './LegalRights';
 import FirstAidGuides from './FirstAidGuides';
 import VolunteerSignup from './VolunteerSignup';
-import './App.css'; // Import the CSS file
-import protImage from './prov.JPG'; // Import the image
+import './App.css'; 
+import protImage from './prov.JPG'; 
 
 const App = () => {
   return (

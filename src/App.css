@@ -1,4 +1,4 @@
-/* Import the Google Font 'Anton' */
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 body {
@@ -28,7 +28,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 1em 0;
-  color: #ff0000; /* Optional: change color to match the style */
+  color: #ff0000; 
 }
 
 .App-navbar {
