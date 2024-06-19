@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
-import './FirstAidGuides.css'; // Import the CSS file for FirstAidGuides
+import './FirstAidGuides.css'; 
 
 const guides = [
     { name: 'Basic First Aid', link: '/resources/basic_f_aid.pdf' },

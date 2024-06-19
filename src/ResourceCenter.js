@@ -7,6 +7,7 @@ const flyers = [
   { name: 'USSD Code', link: 'tel:*665*971#' },
   { name: 'Protest Guide', link: 'https://www.instagram.com/p/C8UTIjriayQ/?igsh=MWhpMzR0NWhmeXR3Zw==' },
   { name: 'Code Of Conduct', link: 'https://www.instagram.com/p/C8VKSY-o07G/?igsh=MWx6YnAxNmtyYjMxdQ==' },
+  { name: 'Maandamano Manifesto', link: '/resources/manifesto.pdf' },
   
 ];
 
