@@ -1,5 +1,5 @@
 import React from 'react';
-import './LegalRights.css'; // Import the CSS file for LegalRights
+import './LegalRights.css'; 
 
 const rights = [
     {
@@ -22,7 +22,7 @@ const rights = [
         clause: "If a person is arrested, the person has the right— (a) to be informed promptly, in language that the person understands, of— (i) the reason for the arrest; (ii) the right to remain silent; and (iii) the consequences of not remaining silent.",
         reference: "Article 49(1)(b)"
     }
-    // Add more rights as needed
+
 ];
 
 const LegalRights = () => {

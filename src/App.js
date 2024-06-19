@@ -4,6 +4,7 @@ import ResourceCenter from './ResourceCenter';
 import EmergencyContacts from './EmergencyContacts';
 import LegalRights from './LegalRights';
 import FirstAidGuides from './FirstAidGuides';
+import VolunteerSignup from './VolunteerSignup';
 import './App.css'; 
 import protImage from './prov.JPG'; 
 
@@ -21,6 +22,7 @@ const App = () => {
             <li><Link to="/emergency-contacts">Emergency Contacts</Link></li>
             <li><Link to="/legal-rights">Legal Rights</Link></li>
             <li><Link to="/first-aid-guides">First Aid Guide</Link></li>
+       
           </ul>
         </nav>
         <main className="App-main">
@@ -35,6 +37,7 @@ const App = () => {
             <Route path="/emergency-contacts" element={<EmergencyContacts />} />
             <Route path="/legal-rights" element={<LegalRights />} />
             <Route path="/first-aid-guides" element={<FirstAidGuides />} />
+        
           </Routes>
         </main>
         <footer className="App-footer">
