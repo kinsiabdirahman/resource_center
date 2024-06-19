@@ -21,7 +21,7 @@
   
   .ResourceCenter a {
     text-decoration: none;
-    color: #007bff;
+    color: red;
     transition: color 0.3s;
   }
   

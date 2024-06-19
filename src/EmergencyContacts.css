@@ -1,0 +1,37 @@
+.EmergencyContacts {
+    font-family: Arial, sans-serif;
+  }
+  
+  .EmergencyContacts h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .EmergencyContacts ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .EmergencyContacts li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .EmergencyContacts strong {
+    font-weight: bold;
+    color: red;
+  }
+  
+  .EmergencyContacts a {
+    color: green;
+    text-decoration: none;
+  }
+  
+  .EmergencyContacts a:hover {
+    text-decoration: underline;
+  }
+  

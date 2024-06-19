@@ -1,0 +1,29 @@
+.resource-folder {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 16px;
+    margin: 8px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.folder-header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.folder-details {
+    margin-top: 8px;
+}
+
+.contributors {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contributor {
+    background-color: #eee;
+    border-radius: 50%;
+    padding: 4px 8px;
+    margin: 2px;
+}

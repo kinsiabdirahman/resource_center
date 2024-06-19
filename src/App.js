@@ -6,13 +6,14 @@ import LegalRights from './LegalRights';
 import FirstAidGuides from './FirstAidGuides';
 import VolunteerSignup from './VolunteerSignup';
 import './App.css'; // Import the CSS file
+import protImage from './prov.JPG'; // Import the image
 
 const App = () => {
   return (
     <Router>
       <div className="App">
         <header className="App-header">
-          <h1>Resource Center</h1>
+          <h1>RESOURCE CENTER</h1>
         </header>
         <nav className="App-navbar">
           <ul>
@@ -20,22 +21,27 @@ const App = () => {
             <li><Link to="/resource-center">Resource Center</Link></li>
             <li><Link to="/emergency-contacts">Emergency Contacts</Link></li>
             <li><Link to="/legal-rights">Legal Rights</Link></li>
-            <li><Link to="/first-aid-guides">First Aid Guides</Link></li>
-            <li><Link to="/volunteer-signup">Volunteer Sign-Up</Link></li>
+            <li><Link to="/first-aid-guides">First Aid Guide</Link></li>
+       
           </ul>
         </nav>
         <main className="App-main">
           <Routes>
-            <Route path="/" element={<div><h2>Welcome to the  Resource Center</h2></div>} />
+            <Route path="/" element={
+              <div>
+                <h2>"We are the ones we have been waiting for"</h2>
+                <img src={protImage} alt="Protest" className="center-image" />
+              </div>
+            } />
             <Route path="/resource-center" element={<ResourceCenter />} />
             <Route path="/emergency-contacts" element={<EmergencyContacts />} />
             <Route path="/legal-rights" element={<LegalRights />} />
             <Route path="/first-aid-guides" element={<FirstAidGuides />} />
-            <Route path="/volunteer-signup" element={<VolunteerSignup />} />
+        
           </Routes>
         </main>
         <footer className="App-footer">
-          <p>© 2024 Protest Resource Center</p>
+          <p>#REJECTFINANCEBILL2024</p>
         </footer>
       </div>
     </Router>

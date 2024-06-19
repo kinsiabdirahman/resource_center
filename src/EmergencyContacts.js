@@ -1,14 +1,15 @@
 import React from 'react';
+import './EmergencyContacts.css'; // Import the CSS file for EmergencyContacts
 
 const contacts = [
-    { type: 'Lawyer', name: 'Lawyer A', phone: '+254700000001' },
-    { type: 'Medical', name: 'Medical Help', phone: '+254700000002' },
-    { type: 'Human Rights', name: 'Human Rights Organization', phone: '+254700000003' },
+    { type: 'Organisation', name: 'Defenders Coalition', phone: '0716-200100' },
+    { type: 'Organisation', name: 'IMLU Org', phone: '0800 721 401' },
+    { type: 'Organisation', name: 'Law Society Of Kenya', phone: '0800 720 434' },
 ];
 
 const EmergencyContacts = () => {
     return (
-        <div>
+        <div className="EmergencyContacts">
             <h2>Emergency Contacts</h2>
             <ul>
                 {contacts.map((contact, index) => (

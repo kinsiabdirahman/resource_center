@@ -2,9 +2,12 @@ import React from 'react';
 import './ResourceCenter.css'; // Import the CSS file for Resource Center
 
 const flyers = [
-  { name: 'Protest Guide', link: '/resources/protest-guide.pdf' },
-  { name: 'Finance Bill Summary', link: '/resources/finance-bill-summary.pdf' },
-  { name: 'FAQ', link: '/resources/faq.pdf' },
+
+  { name: 'Finance GPT', link: 'https://t.co/PCLCg72ZhP' },
+  { name: 'USSD Code', link: 'tel:*665*971#' },
+  { name: 'Protest Guide', link: 'https://www.instagram.com/p/C8UTIjriayQ/?igsh=MWhpMzR0NWhmeXR3Zw==' },
+  { name: 'Code Of Conduct', link: 'https://www.instagram.com/p/C8VKSY-o07G/?igsh=MWx6YnAxNmtyYjMxdQ==' },
+  
 ];
 
 const ResourceCenter = () => {
@@ -14,7 +17,11 @@ const ResourceCenter = () => {
       <ul>
         {flyers.map((flyer, index) => (
           <li key={index}>
-            <a href={flyer.link} target="_blank" rel="noopener noreferrer">{flyer.name}</a>
+            {flyer.link.startsWith('http') || flyer.link.startsWith('tel') ? (
+              <a href={flyer.link} target="_blank" rel="noopener noreferrer">{flyer.name}</a>
+            ) : (
+              <a href={process.env.PUBLIC_URL + flyer.link} target="_blank" rel="noopener noreferrer" download>{flyer.name}</a>
+            )}
           </li>
         ))}
       </ul>
