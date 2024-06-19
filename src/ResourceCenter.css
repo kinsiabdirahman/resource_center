@@ -1,0 +1,31 @@
+.ResourceCenter {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .ResourceCenter h2 {
+    margin-top: 0;
+  }
+  
+  .ResourceCenter ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ResourceCenter li {
+    margin-bottom: 10px;
+  }
+  
+  .ResourceCenter a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+  }
+  
+  .ResourceCenter a:hover {
+    color: #0056b3;
+  }
+  
