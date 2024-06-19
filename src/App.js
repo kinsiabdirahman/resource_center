@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import ResourceCenter from './ResourceCenter';
 import EmergencyContacts from './EmergencyContacts';
 import LegalRights from './LegalRights';
@@ -20,14 +20,14 @@ const App = () => {
                         <li><Link to="/volunteer-signup">Volunteer Sign-Up</Link></li>
                     </ul>
                 </nav>
-                <Switch>
-                    <Route path="/" exact component={() => <div><h1>Welcome to the Protest Resource Center</h1></div>} />
-                    <Route path="/resource-center" component={ResourceCenter} />
-                    <Route path="/emergency-contacts" component={EmergencyContacts} />
-                    <Route path="/legal-rights" component={LegalRights} />
-                    <Route path="/first-aid-guides" component={FirstAidGuides} />
-                    <Route path="/volunteer-signup" component={VolunteerSignup} />
-                </Switch>
+                <Routes>
+                    <Route path="/" element={<div><h1>Welcome to the Protest Resource Center</h1></div>} />
+                    <Route path="/resource-center" element={<ResourceCenter />} />
+                    <Route path="/emergency-contacts" element={<EmergencyContacts />} />
+                    <Route path="/legal-rights" element={<LegalRights />} />
+                    <Route path="/first-aid-guides" element={<FirstAidGuides />} />
+                    <Route path="/volunteer-signup" element={<VolunteerSignup />} />
+                </Routes>
             </div>
         </Router>
     );
