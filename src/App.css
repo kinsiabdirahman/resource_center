@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 body {
@@ -28,7 +27,7 @@ body {
   text-align: center;
   margin: 0;
   padding: 1em 0;
-  color: #ff0000; 
+  color: #ff0000;
 }
 
 .App-navbar {
@@ -45,6 +44,7 @@ body {
   gap: 15px;
   padding: 0;
   margin: 0;
+  flex-wrap: wrap; 
 }
 
 .App-navbar li {
@@ -61,6 +61,27 @@ body {
 
 .App-navbar a:hover {
   background-color: #070a71;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .App-navbar ul {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .App-navbar li {
+    display: inline-block;
+    border-left: 1px solid #333; 
+    padding-left: 10px;
+  }
+
+  .App-navbar li:first-child {
+    border-left: none; 
+    padding-left: 0;
+  }
 }
 
 .App-main {
